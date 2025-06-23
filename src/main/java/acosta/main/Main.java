@@ -5,7 +5,7 @@ import acosta.framework.Framework;
 public class Main {
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.err.println("Uso: java garcia.main.Main <ruta-archivo-configuracion>");
+            System.err.println("Uso: java acosta.main.Main <ruta-archivo-configuracion>");
             System.exit(1);
         }
 
